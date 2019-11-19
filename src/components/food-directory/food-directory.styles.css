@@ -1,0 +1,48 @@
+.FoodDirectoryContainer {
+  margin: 10px 10px;
+  background-color: #eee;
+}
+
+.FoodDirectoryContainerHeader {
+  height: 50px;
+  background-color: #dfdfdf;
+  display: flex;
+  justify-content: center;
+  padding-top: 12px;
+}
+
+.FoodDirectoryContainerHeaderBody {
+  width: 50vw;
+  text-align: center;
+  text-align: center;
+  border-bottom: 2px solid #febf34;
+}
+
+.FoodDirectoryContainerBody {
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: center;
+}
+
+.FoodDirectoryContainerBody .card {
+  margin: 10px 10px;
+  width: 18rem;
+  text-transform: capitalize;
+}
+
+.CardTitle {
+  display: flex;
+}
+
+.CardTitle .CardTitleName {
+  flex: 1;
+}
+
+.CardTitle .CardTitlePrice {
+  flex: 1;
+  text-align: right;
+}
+
+.CardAddItemBtn {
+  text-align: right;
+}
